@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: 'Roboto';
+    background-color: #F0F3F8;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+.loginpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 20px;
+}
+.loginpage .loginbody{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 80px;
+}
+.loginbody .rightlogin{
+    height: 100%;
+    width: 400px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+form .heading{
+    background: white;
+}
+.rightlogin .heading h1{
+    background: white;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.831);
+    font-weight: 800;
+    padding: 20px 0;
+}
+.rightlogin .heading p{
+    background: white;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.478);
+}
+.rightlogin .heading span{
+    background: white;
+    color: #39A854;
+}
+.rightlogin .heading span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.rightlogin .body{
+    background-color: white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+.body input{
+    font-size: 13px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(128, 128, 128, 0.538);
+    border-radius: 12px;
+}
+.rightlogin p{
+    background: white;
+    font-size: 13px;
+    color: #39a855;
+    font-weight: 600;
+}
+.rightlogin p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.rightlogin button{
+    margin-top: 80px;
+    width: 100%;
+    padding: 13px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    background-color: #31da5b;
+}
+.rightlogin button:hover{
+    cursor: pointer;
+    background-color: #0dc13a;
+}
